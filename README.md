@@ -1,3 +1,15 @@
+# temp serialize #
+
+I swear I am not suffering frantic scope creep.
+Ultimately these series of projects will be collected into a unified temperature scanner library.
+
+pathscan for verifying paths to everything, or as needed.
+rpi_ds18b20_driver for reading a ds18b20 temperature sensor
+rpi_cpu_temp for reading the raspberry pi's cpu temperature sensor
+temp_sensor_sql for storing sensor data in a database (sqlite3)
+temp_serialize for storing raw temperature data in binary format files, or converting to/from CSV
+
+
 
 idea
 save a lot of space with some basic serialization techniques
