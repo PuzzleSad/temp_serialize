@@ -33,7 +33,7 @@ $(BIN): $(OBJECTS)
 	@$(CC) $(CFLAGS) -I$(HEADERDIR) -o $@ $^ -lm -lpthread
 
 $(BUILDDIR)/%.o: $(SOURCEDIR)/%.c
-	@$(CC) $(CFLAGS) -I$(HEADERDIR) -c $< -o $@
+	@$(CC) $(CFLAGS) -I$(HEADERDIR) -c $< -o $@ -Wno-unused-variable
 
 $(BUILDDIR)/%.o: src/%.c
 	@$(CC) $(CFLAGS) -I$(HEADERDIR) -c $< -o $@

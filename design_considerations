@@ -1,0 +1,5 @@
+use of 32b offsets
+For this application, considering this is an educational exercise, 
+I do not see how there will be 4G+ distance between each header. 
+
+Alternatively, a version number can be written into the file header
